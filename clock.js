@@ -36,8 +36,4 @@ angleHand(min, minAngle);
 angleHand(sec, secAngle);
 
 
-// found the below function @ https://www.codegrepper.com/code-examples/javascript/refresh+page+every+second+javascript
-let refreshSec = 1 // Repeat every 1 second.
-setInterval(function() {
-	window.location.reload(1)
-},refreshSec/1000)
+location.reload(1000)
